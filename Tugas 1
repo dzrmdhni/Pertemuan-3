@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int bb,tb,hasil;
+    cout<<"Masukan Tinggi Badan Anda (cm) = ";
+    cin>>tb;
+    cout<<"Masukan Berat Badan Anda (kg) = ";
+    cin>>bb;
+
+    if(hasil<=150 && hasil>=-150)
+{
+    cout<<"Tubuh kamu Ideal"<<endl;
+}
+    else
+
+    cout<<"Tubuh kamu terlalu kurus"<<endl;
+
+
+     return 0;
+}
